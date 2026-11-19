@@ -1,0 +1,18 @@
+# Credentials / secrets
+.env
+
+# Dependencies
+node_modules/
+
+# Playwright output
+test-results/
+playwright-report/
+reports/
+blob-report/
+playwright/.cache/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+*.log

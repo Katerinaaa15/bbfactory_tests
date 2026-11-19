@@ -1,0 +1,20 @@
+{
+  "name": "bbfactory-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright end-to-end tests for https://bbfactory.lv/ (Page Object Model)",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "report": "playwright show-report reports/html",
+    "check:no-skips": "node scripts/check-no-skips.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.0.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.6.0"
+  }
+}
